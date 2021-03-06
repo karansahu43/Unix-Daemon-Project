@@ -9,7 +9,7 @@
 #
 # Description:
 #
-#	Builds for HW 5 mainhw5.cc, function.h and tclap.cc
+#	Builds for DaemonProject.cc, function.h and tclap.cc
 #
 # Flags for the C++ implicit rules
 CC = g++

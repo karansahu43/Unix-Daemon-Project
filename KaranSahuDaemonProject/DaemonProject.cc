@@ -1,15 +1,12 @@
 /*
- * FileName	mainhw5.cc
+ * FileName	DaemonProject.cc
  * Date		4/15/2020
  * Author	Karan Sahu
  * Email	kxs190007@utdallas.edu
- * Course	CS 3377.501 Sping 2020
  * Version	1.0
  * Copyright 2020, all rights reserved
  *
- * Description
- * HW number 5 for cs 3377  * 	
- * 	*/
+*/
 
 #include <iostream>
 #include "function.h"
