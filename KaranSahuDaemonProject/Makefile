@@ -25,7 +25,7 @@ PROJECTNAME = KaranSahuHW5
 
 EXECFILE = Karanproject5
 
-OBJS = mainhw5.o 
+OBJS = DaemonProject.o 
 # Because we are insane, keep the intermediate files so we can look at
 # them If we comment this out (or remove it), the intermediate scan.c
 # file is automatically deleted.
@@ -34,7 +34,7 @@ OBJS = mainhw5.o
 
 
 
-all:  mainhw5
+all:  DaemonProject
 
 clean:
 	rm -f $(OBJS) $(EXECFILE) *~ \#* scanner scan.c
@@ -56,8 +56,8 @@ backup:
 test:
 	echo $(shell basename 'pwd')
 
-mainhw5: mainhw5.cc
-	g++ -static -o mainhw5 tclapfunction.cc -I ~/include mainhw5.cc -I ~/include -I rude -Wall -L ~/lib -l rudeconfig
+DaemonProject: DaemonProject.cc
+	g++ -static -o DaemonProject tclapfunction.cc -I ~/include DaemonProject.cc -I ~/include -I rude -Wall -L ~/lib -l rudeconfig
 
 #%o:%cc
 #	$(CC) -M -MF $*P $<
