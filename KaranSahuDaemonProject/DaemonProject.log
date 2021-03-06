@@ -3,8 +3,8 @@
 If Verbose is true or conf file was edited then conf file will be printed!
 
 Verbose is: false
-Log file name is: cs3377dirmond.log
+Log file name is: DaemonProject.log
 Version is: 1
-Watch directory path is: 
+Watch directory path is: /home/010/k/kx/kxs190007/temp/WatchDir
 Log count is: 1
 
