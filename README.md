@@ -3,4 +3,4 @@ Once executable in Unix is ran it starts a daemon which responds to signals and 
 
 Can set file path for watch directiory in .conf file
 
-Must download Rude config (http://rudeserver.com/config/download.html) and Tclap(http://tclap.sourceforge.net/) and adjust file paths for program to work
+Must download Rude config (http://rudeserver.com/config/download.html) and Templatized C++ Command Line Parser(http://tclap.sourceforge.net/) and adjust file paths for program to work
